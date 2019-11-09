@@ -23,14 +23,6 @@ function App() {
         -
         <a
           className="App-link"
-          href="https://github.com/zenkbaries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github
-        </a>
-        <a
-          className="App-link"
           href="https://twitter.com/kbaries"
           target="_blank"
           rel="noopener noreferrer"

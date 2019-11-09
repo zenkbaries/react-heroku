@@ -1,7 +1,6 @@
 import React from 'react';
-import plus_symbol from './plus.jpg';
 import react_logo from './react_logo.svg';
-import heroku_logo from './heroku-icon.svg';
+import heroku_logo from './heroku_logo.svg';
 import './App.css';
 import Navigation from './components/navigation';
 
@@ -10,15 +9,18 @@ function App() {
     <div className="App">
          <Navigation />
       <header className="App-header">
-        <div className="container">
-          <img src={react_logo} className="App-logo" alt="logo" />
-          <img src={plus_symbol} className="App-logo" alt="logo" />
-
-          <img src={heroku_logo} className="App-logo" alt="logo" />
+        <div className="row">
+          <div className="col-md-6">
+            <img src={react_logo} className="App-logo-react" alt="React logo" />
+          </div>
+          <div className="col-md-6">
+            <img src={heroku_logo} className="App-logo-heroku" alt="Heroku logo" />
+          </div>
         </div>
         <p>
-          React on Heroku.
+          Running React on Heroku made easy.
         </p>
+        -
         <a
           className="App-link"
           href="https://github.com/zenkbaries"
@@ -33,7 +35,16 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Twitter
+          Learn React
+        </a>
+        -
+        <a
+          className="App-link"
+          href="https://www.heroku.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Heroku Platform
         </a>
       </header>
     </div>

@@ -1,9 +1,9 @@
 import React from 'react';
-import plus_symbol from './white-plus-png.png';
+import plus_symbol from './plus.jpg';
 import react_logo from './react_logo.svg';
 import heroku_logo from './heroku-icon.svg';
 import './App.css';
-import Navigation from './components/Navigation';
+import Navigation from './components/navigation';
 
 function App() {
   return (

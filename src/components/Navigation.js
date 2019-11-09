@@ -13,9 +13,9 @@ class Navigation extends React.Component {
                     {/* <li class="nav-item active">
                         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                     </li> */}
-                    <li class="nav-item">
+                    {/* <li class="nav-item">
                         <a class="nav-link" href="/links">Link</a>
-                    </li>
+                    </li> */}
                     {/* <li class="nav-item">
                         <a class="nav-link disabled" href="/disable" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li> */}

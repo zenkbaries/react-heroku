@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
+import react_logo from './react_logo.svg';
+import heroku_logo from './heroku_logo.svg';
 import './App.css';
 import Navigation from './components/Navigation';
 
@@ -8,17 +9,34 @@ function App() {
     <div className="App">
          <Navigation />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="row">
+          <div className="col-md-6">
+            <img src={react_logo} className="App-logo-react" alt="React logo" />
+          </div>
+          <div className="col-md-6">
+            <img src={heroku_logo} className="App-logo-heroku" alt="Heroku logo" />
+          </div>
+        </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Running React on Heroku made easy.
         </p>
+        -
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+                    Learn React
+        </a>
+        -
+        <a
+          className="App-link"
+          href="https://www.heroku.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Heroku Platform
         </a>
       </header>
     </div>

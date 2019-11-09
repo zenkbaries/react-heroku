@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+import plus_symbol from './white-plus-png.png';
+import react_logo from './react_logo.svg';
+import heroku_logo from './heroku-icon.svg';
 import './App.css';
 import Navigation from './components/Navigation';
 
@@ -8,17 +10,30 @@ function App() {
     <div className="App">
          <Navigation />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="container">
+          <img src={react_logo} className="App-logo" alt="logo" />
+          <img src={plus_symbol} className="App-logo" alt="logo" />
+
+          <img src={heroku_logo} className="App-logo" alt="logo" />
+        </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          React on Heroku.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/zenkbaries"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github
+        </a>
+        <a
+          className="App-link"
+          href="https://twitter.com/kbaries"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
         </a>
       </header>
     </div>

@@ -23,7 +23,7 @@ function App() {
         -
         <a
           className="App-link"
-          href="https://twitter.com/kbaries"
+          href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >

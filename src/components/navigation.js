@@ -30,7 +30,7 @@ const Navigation = () => {
                             onClick={() =>
                                 loginWithRedirect({})
                             }>
-                            Log in/Sign Up
+                            Log in / Sign Up
                         </button>                        
                     )}
                     {isAuthenticated && (

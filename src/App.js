@@ -7,7 +7,7 @@ import Navigation from './components/navigation';
 function App() {
   return (
     <div className="App">
-         <Navigation />
+      <Navigation />
       <header className="App-header">
         <div className="row">
           <div className="col-md-6">

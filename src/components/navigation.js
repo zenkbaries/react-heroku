@@ -20,7 +20,7 @@ const Navigation = () => {
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
                         {(isAuthenticated && user) &&
-                        <a className="nav-link" href="/about">{user.name}</a>
+                        <a className="nav-link" href="/profile">{user.name}</a>
                         }
                     </li>
                     <li className="nav-item">

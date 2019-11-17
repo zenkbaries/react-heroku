@@ -1,7 +1,6 @@
 import React from 'react';
 import { useAuth0 } from "../react-auth0-spa";
 
-<<<<<<< HEAD
 const Navigation = () => {
 
     const { loading, user } = useAuth0();
@@ -24,14 +23,6 @@ const Navigation = () => {
                         <a className="nav-link" href="/about">{user.name}</a>
                         }
                     </li>
-=======
-class Navigation extends React.Component {
-    render() {
-        return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand" href="/">React on Heroku</a>
-                <ul className="navbar-nav ml-auto">
->>>>>>> master
                     <li className="nav-item">
                     {!isAuthenticated && (
                         <button
@@ -53,17 +44,10 @@ class Navigation extends React.Component {
                     )}
                     </li>
                 </ul>
-<<<<<<< HEAD
             </div>
         </nav>
     );
 };
 
-=======
-            </nav>
-        )
-    }
-}
->>>>>>> master
 
 export default Navigation;

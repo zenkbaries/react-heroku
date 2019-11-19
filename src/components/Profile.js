@@ -24,7 +24,7 @@ const Profile = () => {
                 
                 <div class="profile-card py-3 card shadow text-center">
                     <div class="card-body py-4">
-                        <img class="profile-picture rounded-circle" src={user.picture} />
+                        <img class="profile-picture rounded-circle"  alt="user avatar" src={user.picture} />
                         <h2 class="text-warning h4 font-weight-bold mt-3 mb-1">
                         {user.name}
                         </h2>

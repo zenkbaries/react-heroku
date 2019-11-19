@@ -22,3 +22,10 @@ Resource:
 
 [React Documentation](www.react.org)
 
+### Todos:
+*   Setup Heroku (CLI/Dashboard)
+*   Add React-Router-Dom
+*   Add Auth0
+*   Add MongoDB
+
+*   

@@ -54,3 +54,16 @@ div.row {
   margin: auto;
   text-align: left;
 }
+
+.profile-card .profile-picture {
+  width: 7.4rem;
+}
+
+.profile-card .social-section {
+  margin-top: 2rem;
+}
+
+.profile-card .social-section a {
+  font-size: 1.3rem;
+  padding: .2rem .6rem;
+}

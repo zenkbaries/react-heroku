@@ -5,7 +5,7 @@ import './App.css';
 import Navigation from './components/navigation';
 // import About from './components/About';
 import Home from './components/Home';
-import Profile from './components/Profile.js';
+import Profile from './components/Profile';
 import PrivateRoute from './components/PrivateRoute';
 
 import { Switch, Route } from 'react-router-dom';

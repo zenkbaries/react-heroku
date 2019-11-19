@@ -3,7 +3,7 @@ import { useAuth0 } from "../react-auth0-spa";
 
 const Navigation = () => {
 
-    const { loading, user } = useAuth0();
+    const { user } = useAuth0();
 
     const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
 
@@ -11,7 +11,7 @@ const Navigation = () => {
 //     return (
 //       <div>Loading...</div>
 //     );
-//   }
+// }
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">

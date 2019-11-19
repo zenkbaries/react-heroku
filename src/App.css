@@ -1,3 +1,8 @@
+body {
+  background-color: #282c34;
+
+}
+
 .App {
   text-align: center;
 }
@@ -26,4 +31,26 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.Profile {
+  background-color: #a19999;
+  margin: auto;
+  padding: 50px;
+
+  /* vertical-align: center; */
+  /* height: 300px; */
+}
+
+div.row {
+  height: 456px;
+}
+
+.Profile-avatar {
+  margin: auto;
+}
+
+.Profile-info {
+  margin: auto;
+  text-align: left;
 }

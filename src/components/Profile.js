@@ -1,6 +1,6 @@
 // src/components/Profile.js
 
-import React, { Fragment } from "react";
+import React from "react";
 import { useAuth0 } from "../react-auth0-spa";
 
 const Profile = () => {
@@ -13,13 +13,17 @@ const Profile = () => {
   }
 
   return (
-    <Fragment>
-      <img src={user.picture} alt="Profile" />
-
-      <h2>{user.name}</h2>
-      <p>{user.email}</p>
-      <code>{JSON.stringify(user, null, 2)}</code>
-    </Fragment>
+    <div className="container Profile">
+        <div className="row" >
+            <div className="col Profile-avatar">            
+                <img src={user.picture} alt="Profile" />
+            </div>
+            <div className="col-6 Profile-info">
+                <h3>{user.name}</h3>
+                <p>{user.email}</p>
+            </div>
+        </div>
+    </div>
   );
 };
 
